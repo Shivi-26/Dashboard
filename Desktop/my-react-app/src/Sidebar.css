@@ -1,0 +1,206 @@
+.box-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.box,.boxcal {
+  height: 150px;
+  width: 430px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 30, 87, 0.751);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  top: 15%;
+  left: 20%;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+}
+.box9{
+   width: 230px;
+   position: absolute;
+   margin-left: 448px;
+   margin-top: 63px;
+   height: 68px;
+   background-color: #fff;
+}
+.points{
+  color: black;
+  margin-left: 49px;
+}
+.project{
+  font-size: 13px;
+  top: 2%;
+  left: 7%;
+  position: absolute;
+}
+.mth{
+  font-size: 9px;
+  margin-top: -2px;
+  position: absolute;
+  left: 16px;
+}
+.doller{
+  
+}
+.box3{
+  width: 100px;
+  margin-left: 345px;
+  top: 1px;
+  position: absolute;
+}
+.txt1{
+  margin-left: 37px;
+  top: 45%;
+  position: absolute;
+}
+.stat,.process{
+  left: 10px;
+  top: 8%;
+  font-size: small;
+  position: absolute;
+}
+.process{
+  top: 18%;
+  font-size: 11px;
+}
+.point{
+  margin-top: -89px;
+  margin-left: 37px;
+}
+.para{
+  position: absolute;
+  font-size: 10px;
+  top: 20%;
+  left: 12%;
+}
+
+.box4, .box5{
+  width: 230px;
+  height: 80px;
+  background-color: rgb(120, 120, 230);
+  left: 534px;
+  margin-top: -20px;
+}
+.radio{
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px #858282;
+  top: 9px;
+  position: absolute;
+  margin-left: 133px;
+}
+.month{
+  font-size: 12px;
+  margin-right: 103px;
+  top: 8px;
+  color: #fff;
+  position: absolute;
+
+}
+.jan{
+  font-size: 10px;
+  top:27px;
+  left: 15px;
+  color: #fff;
+  position: absolute;
+}
+.doll,.doller{
+  font-size: 11px;
+  margin-top: 36px;
+  position: absolute;
+  color: #fff;
+  margin-left:-193px;
+}
+.num{
+  margin-top: 34px;
+  color: #fff;
+  left: 23px;
+  position: absolute;
+}
+
+.box5{
+  background-color: #fff;
+  margin-top: 25px;
+  height: 64px;
+  position: absolute;
+}
+.box5,.box6,.box7,.box8{
+  width: 360px;
+  height: 220px;
+  left: 0%;
+  margin-top: 184px;
+}
+.box6, .box8{
+  height: 60px;
+  top: -84%;
+  background-color:#7530f7;
+  color: #fff;
+}
+.fw{
+  font-weight: 600;
+  font-size: larger;
+}
+.sub, .subs1{
+  height: 2px;
+  width: 363px;
+  margin-top: 457px;
+  left: -2px;
+  background-color: #e6e5e7;
+  position: absolute;
+}
+
+.box7{
+  position: absolute;
+  margin-left: 400px;
+}
+.subs1{
+  margin-left: 397px;
+  position: absolute;
+}
+
+.topic{
+  font-size: 9px;
+  margin-left: 29px;
+  margin-top: 3px;
+}
+.calen{
+  margin-left: 770px;
+  top: 16%;
+  position: absolute;
+}
+.calendar-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 270px;
+}
+
+.calendar-header {
+  background-color: #fff;
+  padding: 11px;
+}
+
+th {
+  text-align: center;
+}
+
+table {
+  width: 200px;
+}
+
+.table-bordered {
+  border: none !important;
+}
+
+td {
+  padding: 11px;
+}
+
+.boxcal{
+  width: 270px;
+  height: 400px;
+}

@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pie-chart {
+	background:
+		radial-gradient(
+				circle closest-side,
+				rgb(255, 255, 255) 0,
+				white 90%,
+				transparent 90%,
+				transparent 100%,
+				white 0
+			),
+			conic-gradient(
+				#f4f5b7 0%,
+				#f9fd07 25%,
+				#f4f5b7 0%,
+				#f6f7be 0%
+		);
+	position: relative;
+	width: 100px;
+	min-height: 50px;
+	margin-top: 37px;
+}
+
+.pie-chart span:after {
+	display: inline-block;
+	content: "";
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-left: 0.8em;
+	height: 1.5rem;
+	border-radius: 0.4em;
+	background: currentColor;
+}
+
+.pie-chart1 {
+	background:
+		radial-gradient(
+				circle closest-side,
+				rgb(255, 255, 255) 0,
+				white 90%,
+				transparent 90%,
+				transparent 100%,
+				white 0
+			),
+			conic-gradient(
+				#d1baf5 0%,
+				#2701fa 50%,
+				#d1baf5 0%,
+				#d1baf5 0%
+		);
+	position: relative;
+	width: 100px;
+	min-height: 50px;
+	margin-top: 37px;
+}
+
+.pie-chart1 span:after {
+	display: inline-block;
+	content: "";
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-left: 0.8em;
+	height: 1.5rem;
+	border-radius: 0.4em;
+	background: currentColor;
+}
+
+.pie-chart2 {
+	background:
+		radial-gradient(
+				circle closest-side,
+				rgb(255, 255, 255) 0,
+				white 90%,
+				transparent 90%,
+				transparent 100%,
+				white 0
+			),
+			conic-gradient(
+				#94f3ac 0%,
+				#013f11 62%,
+				#94f3ac 0%,
+				#94f3ac 0%
+		);
+
+	position: relative;
+	width: 100px;
+	min-height: 50px;
+	margin-top: 37px;
+}
+
+.pie-chart2 span:after {
+	display: inline-block;
+	content: "";
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-left: 0.8em;
+	height: 1.5rem;
+	border-radius: 0.4em;
+	background: currentColor;
+}
+
+.pie-chart3 {
+	background:
+		radial-gradient(
+				circle closest-side,
+				rgb(255, 255, 255) 0,
+				white 90%,
+				transparent 90%,
+				transparent 100%,
+				white 0
+			),
+			conic-gradient(
+				#94f3ac 0%,
+				#013f11 75%,
+				#94f3ac 0%,
+				#94f3ac 0%
+		);
+		
+	position: relative;
+	width: 100px;
+	min-height: 50px;
+	margin-top: 37px;
+}
+
+.pie-chart3 span:after {
+	display: inline-block;
+	content: "";
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-left: 0.8em;
+	height: 1.5rem;
+	border-radius: 0.4em;
+	background: currentColor;
+}
+
+.one,.two, .three, .four{
+	background-color: rgb(245, 245, 178);
+	color: #818334;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 10px;
+	width: 60px;
+	top: 82%;
+	position: absolute;
+	margin-left: 19px;
+	height: 15px;
+}
+.rang{
+	background-color: #f9fd07;
+	width: 62px;
+}
+
+.two{
+	background-color: rgb(193, 178, 245);
+	color: #403483;
+}
+.three, .four{
+	background-color: rgb(178, 245, 200);
+	color: #0f6141;
+}
+header{
+  width: 100%;
+  display: flex;
+}
+.fix{
+  margin-left: 60px;
+  margin-bottom: -23px;
+  
+}
+
+.but{
+  right: 4rem;
+  position: absolute;
+}
+.texty{
+  width: 450px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: #fff;
+  position: fixed;
+}
+.form-group{
+  margin-left: 400px;
+  bottom: 43%;
+  position: relative;
+  justify-content: center;
+}
+.welc{
+  right: 66rem;
+  top: -2px;
+  position: fixed;
+}
+
+.write{
+  right: 852px;
+  position: fixed;
+  margin-top: 11px;
+}
+
+.yellow{
+	background-color: #e8e4f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
